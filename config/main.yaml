@@ -1,0 +1,10 @@
+version: 5.5.0.4
+type: common
+authorName: "Ilya I"
+moduleName: "Advanced Product Images"
+description: "This module enables product image popups and a magnifier."
+minorRequiredCoreVersion: 0
+dependsOn: {}
+incompatibleWith: {}
+showSettingsForm: true
+canDisable: true

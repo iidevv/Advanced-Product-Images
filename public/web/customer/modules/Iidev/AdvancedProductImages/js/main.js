@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document
     .querySelector(".product-image-gallery")
-    .addEventListener("mouseenter", () => {
+    ?.addEventListener("mouseenter", () => {
       setFancyboxTrigger();
       initZoom();
     });

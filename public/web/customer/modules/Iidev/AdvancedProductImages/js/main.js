@@ -9,10 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function initZoom() {
     const img = document.querySelector(".product-photo-box img");
     const preview = document.querySelector(".zoom-preview");
-    
+
     let backgroundSrc;
     let zoomLevel = 2.3;
-
 
     img.addEventListener("mouseover", (e) => {
       backgroundSrc =

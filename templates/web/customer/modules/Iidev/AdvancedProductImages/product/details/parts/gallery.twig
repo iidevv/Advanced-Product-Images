@@ -9,7 +9,7 @@
   <div class="slides">
     <ul
         class="cycle-cloak cycle-slideshow"
-        data-cycle-carousel-vertical=false
+        data-cycle-carousel-vertical={% if this.isMobileDevice() %}false{% else %}true{% endif %}
         data-cycle-carousel-visible={{ this.getMinCountForSlider() }}
         data-cycle-next="#product-image-gallery-next-{{ this.getProductId() }}"
         data-cycle-prev="#product-image-gallery-prev-{{ this.getProductId() }}"
